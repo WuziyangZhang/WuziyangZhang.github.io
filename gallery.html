@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChartCreator • Gallery</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .gallery-layout { display: grid; gap: 1.5rem; }
+    .gallery-layout .tips { grid-column: 1 / -1; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="brand">ChartCreator</h1>
+    <p class="tagline"><strong>AI-assisted</strong> charts for <em>busy professionals</em>.</p>
+    <nav aria-label="Primary" class="site-nav">
+      <a href="index.html">Home</a> | <a href="features.html">Features</a> | <a href="pricing.html">Pricing</a> | <a href="gallery.html" aria-current="page" class="active">Gallery</a> | <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery-layout">
+      <h2>Gallery</h2>
+      <aside class="tips" aria-label="Design tips">
+        <h3>Design tips</h3>
+        <ul>
+          <li>Use titles that state the <em>point</em>, not just the topic.</li>
+          <li>Keep labels horizontal when possible.</li>
+          <li>Limit categories; aggregate small slices to "Other".</li>
+        </ul>
+      </aside>
+
+      <div class="gallery-grid">
+        <figure>
+          <img src="images/export.png" alt="PNG export dialog with size options">
+          <figcaption>1-click export to PNG with crisp text.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/templates.png" alt="Template chooser dialog">
+          <figcaption>Pick from templates tuned to your message.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/dashboard.png" alt="Chart preview with editing sidebar">
+          <figcaption>Live preview with smart defaults and guardrails.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 ChartCreator</p>
+  </footer>
+</body>
+</html>
